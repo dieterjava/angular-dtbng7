@@ -1,4 +1,4 @@
-<h2>Products</h2>
+<h1>Product List</h1>
 
 <div *ngFor="let product of products">
 
@@ -9,11 +9,11 @@
   </h3>
 
   <p *ngIf="product.description">
-    Description: {{ product.description }}
+    Description of product: {{ product.description }}
   </p>
 
   <button (click)="share()">
-    Share
+    Share product
   </button>
 
 <app-product-alerts
