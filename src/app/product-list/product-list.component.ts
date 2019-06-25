@@ -15,7 +15,7 @@ export class ProductListComponent {
   }
 
   context() {
-    window.alert('context ' + this.);
+    window.alert('context , make a context menu here ');
   }
 
     onNotify() {
