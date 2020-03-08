@@ -9,7 +9,11 @@
   </h3>
 
   <p *ngIf="product.description">
-    Description of product: {{ product.description }}
+    Desc of product: {{ product.description }}
+  </p>
+
+  <p *ngIf="product.price">
+    Desc of product: {{ product.price }}
   </p>
 
   <button  (click)="share()" (contextmenu)="context()">
