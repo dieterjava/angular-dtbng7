@@ -1,3 +1,7 @@
+// 
+// list of products in JSON format
+// mocked service
+
 export const products = [
   {
     name: 'Phone XL',
@@ -11,7 +15,7 @@ export const products = [
   },
   {
     name: 'Phone Standard',
-    price: 0,
+    price: 0,  // validation of 0 is funny :-)
     description: ''
   }
 ];
